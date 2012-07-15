@@ -1,16 +1,14 @@
 {
 	"name": "fastcgi-parser",
-	"version": "0.1.1",
+	"version": "0.1.4",
 	"description": "FastCGI parser for low level parsing of the FastCGI protocol",
-	"keywords": "fastcgi,parser",
+	"keywords": ["fastcgi","parser"],
 	"author": "Andrew Johnston <apjohnsto@gmail.com>",
+        "maintainers": ["Jason Smith <jhs@iriscouch.com>"],
 	"main": "./lib/fastcgi",
 	"engines": { "node": ">= 0.2.0" },
-	"dependencies": {
+	"devDependencies": {
 		"vows": ">= 0.5.6"
 	},
-	"repository" : {
-        "type" : "git",
-         "url" : "https://github.com/billywhizz/node-fastcgi-parser.git"
-    }
+	"repository" : {"type":"git" , "url":"https://github.com/iriscouch/node-fastcgi-parser.git"}
 }
