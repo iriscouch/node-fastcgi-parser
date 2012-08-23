@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/iriscouch/node-fastcgi-parser.png)](http://travis-ci.org/iriscouch/node-fastcgi-parser)
 # FastCGI Parser for Node.js
 
 A very basic FastCGI parser for low level parsing of the FastCGI protocol. Can be used to build FastCGI applications which are called from an existing web server (nginx/lighttpd/apache etc.) or to interact with FastCGI applications.
